@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de dias</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>Contador de dias</h1>
+    </header>
+    <main>
+            <div class="container">
+                <div class="input" id="input-dados">
+
+                    <div class="engloba">
+                        <div class="dataIni">
+                            <label for="data-ini">Data inicial</label>
+                            <input type="date" name="data-ini" id="data-ini">
+                        </div>
+    
+                        <div class="dataFim">
+                            <label for="data-fim">Data final</label>
+                            <input type="date" name="data-fim" id="data-fim">
+                        </div>
+
+                        <div class="button" id="button">
+                            <input type="button" value="Contar" onclick="contarDias()">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="output" id="output-dados">
+                    <!-- Aqui vai a saída de dados -->
+                </div>
+            </div>
+    </main>
+    <footer>
+        <h4>
+            <p>Ronald Lage - Todos os direitos reservados &copy;</p>
+        </h4>
+    </footer>
+
+    <script src="contarDias.js"></script>
+</body>
+</html>

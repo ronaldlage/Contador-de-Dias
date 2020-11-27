@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: rgba(216, 223, 230, 0.781);
+}
+
+.container{
+    width: 100vw;
+    height: 60vh;
+
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;  /* centralizar horizontalmente */
+    align-items: center;    /* centralizar verticalmente */
+    justify-content: space-between;
+}
+
+.input{
+    width: 400px;
+    height: 300px;
+    
+    background-color: darkcyan;
+    border-radius: 2px;
+
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;  /* centralizar horizontalmente */
+    align-items: center;    /* centralizar verticalmente */
+}
+
+.engloba{
+    padding: 120px;
+    font-style: italic;
+}
+
+.button{
+    padding-top: 20px;
+}
+
+.output{
+    margin-top: 20px;
+    padding-top: 10px;
+    width: 400px;
+    height: 150px;
+    border-radius: 2px;
+    background-color: rgb(69, 128, 52);
+}
